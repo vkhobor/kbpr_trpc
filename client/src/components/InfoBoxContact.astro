@@ -1,0 +1,24 @@
+---
+export interface Props {
+  title: string;
+  content: string;
+}
+import Box from "./Box.astro";
+
+const { title, content } = Astro.props;
+---
+
+<Box>
+  <div class="content"><b>{title}</b></div>
+  <div class="content">
+    {content}
+  </div>
+</Box>
+
+<style>
+  .title {
+    font-size: 3.8vh;
+    font-weight: bold;
+    margin-bottom: 2vh;
+  }
+</style>

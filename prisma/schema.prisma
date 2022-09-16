@@ -9,7 +9,7 @@ generator trpc {
 
 generator trpc_shield {
   provider = "prisma-trpc-shield-generator"
-  output = "./shield"
+  output   = "./shield"
 }
 
 datasource db {
@@ -24,4 +24,20 @@ model User {
   password  String?
   email     String   @unique
   googleId  String?  @unique
+}
+
+model Order {
+  id             Int      @id @default(autoincrement())
+  createdAt      DateTime @default(now())
+  name           String
+  email          String
+  group          String
+  simonyi        Boolean
+  link           String
+  numberOfPrints Int
+  paperSize      String
+  paperNote      String
+  sticker        Boolean
+  laminate       Boolean
+  comment        String
 }

@@ -1,0 +1,32 @@
+---
+import Box from "../components/Box.astro";
+import Form from "../components/Order/Form.astro";
+import Important from "../components/Order/InfoBox/Important.astro";
+import Info from "../components/Order/InfoBox/Info.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="KBPR Csoport - KWC">
+  <Box>
+    <Important
+      >Az igénylés előtt olvasd el a plakátolási szabályzatot!</Important
+    >
+    <Info
+      >A rendelés leadásakor vedd figyelembe, hogy a KBPR 5 napos (nyári időszak
+      alatt esetleg hosszabb) határidővel dolgozik, ennél korábban kérésre sem
+      áll módunkban az igénylések teljesítése! Ez azt jelenti, hogy ha most adod
+      le a rendelésed, akkor a várható teljesítési idő 2022-09-21. Egyszerre
+      csak egy rendelést adhatsz le!</Info
+    >
+    <Important>Az igényléseden legyen rajta a Schönherz logó!</Important>
+    <Info
+      >Ha nincs saját KBPR-osa a körnek, akkor a toroksami99@gmail.com címre
+      írjatok!</Info
+    >
+    <Info
+      >Kérünk titeket, hogyha megoldható, akkor png/jpg képformátumú
+      kiterjesztésben adjátok le a rendelést.</Info
+    >
+  </Box>
+  <Form />
+</Layout>

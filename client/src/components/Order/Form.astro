@@ -1,0 +1,366 @@
+<form id="order">
+  <fieldset>
+    <legend>Személyes adatok:</legend>
+    <span class="title">Saját neved</span>
+    <div class="tooltip">
+      <img class="infopic" src="../pic/exclamation-blue.png" alt="Info" /><span
+        class="tooltiptext">Kérlek add meg a neved.</span
+      >
+    </div>
+    <input type="text" name="name" placeholder="Ex Ample" />
+    <span class="title">Email címed</span>
+    <div class="tooltip">
+      <img class="infopic" src="../pic/exclamation-blue.png" alt="Info" /><span
+        class="tooltiptext">Ezen az email címen fogunk jelezni.</span
+      >
+    </div>
+    <input type="text" name="email" placeholder="example@gmail.com" />
+    <span class="title">Melyik körnek rendelsz?</span>
+    <div class="tooltip">
+      <img class="infopic" src="../pic/exclamation-blue.png" alt="Info" /><span
+        class="tooltiptext">Válaszd ki a listából a kört, akinek rendelsz!</span
+      >
+    </div>
+    <span><a href="/rendeles/ujkor">Nem találod a köröd?</a></span>
+    <select name="korok">
+      <option value="empty">Válassz a listából!</option>
+      <option value="AC Studio & Live (AC)">AC Studio & Live (AC)</option
+      ><option value="Americano">Americano</option><option
+        value="Body-kör (Body)">Body-kör (Body)</option
+      ><option value="Bor Baráti Kör (BBK)">Bor Baráti Kör (BBK)</option><option
+        value="Budavári Schönherz Stúdió (BSS)"
+        >Budavári Schönherz Stúdió (BSS)</option
+      ><option value="Bulis Reszort">Bulis Reszort</option><option value="Dezső"
+        >Dezső</option
+      ><option value="Diák Sport Kör (DSK)">Diák Sport Kör (DSK)</option><option
+        value="Dzsájrosz">Dzsájrosz</option
+      ><option value="Felezőbál">Felezőbál</option><option value="FoodEx"
+        >FoodEx</option
+      ><option value="Gólyabál (GB)">Gólyabál (GB)</option><option
+        value="Gólyakocsma">Gólyakocsma</option
+      ><option value="Gólyakörte">Gólyakörte</option><option
+        value="Gólyatábor (GTB)">Gólyatábor (GTB)</option
+      ><option value="HA5KFU">HA5KFU</option><option value="Hajvágósch"
+        >Hajvágósch</option
+      ><option value="Hallgatói Képviselet (HK)"
+        >Hallgatói Képviselet (HK)</option
+      ><option value="Hallgatói Tudásbázis (HaT)"
+        >Hallgatói Tudásbázis (HaT)</option
+      ><option value="Homár">Homár</option><option value="Impulzus"
+        >Impulzus</option
+      ><option value="Just Dance Kör (JDK)">Just Dance Kör (JDK)</option><option
+        value="Játszóház">Játszóház</option
+      ><option value="KBPR">KBPR</option><option
+        value="KIR fejlesztők és üzemeltetők"
+        >KIR fejlesztők és üzemeltetők</option
+      ><option value="Kollégiumi Bizottság (KB)"
+        >Kollégiumi Bizottság (KB)</option
+      ><option value="Kollégiumi Felvételi Bizottság (KFB)"
+        >Kollégiumi Felvételi Bizottság (KFB)</option
+      ><option value="Kollégiumi Számítástechnikai Kör (KSZK)"
+        >Kollégiumi Számítástechnikai Kör (KSZK)</option
+      ><option value="Kultúr Reszort">Kultúr Reszort</option><option
+        value="LEGO Kör">LEGO Kör</option
+      ><option value="La'Place Café">La'Place Café</option><option
+        value="Lanosch">Lanosch</option
+      ><option value="LevelUp">LevelUp</option><option
+        value="Local Heroes Szerepjáték kör"
+        >Local Heroes Szerepjáték kör</option
+      ><option value="Lángosch">Lángosch</option><option
+        value="Muzsika Mívelő Mérnökök Klubja (MMMK)"
+        >Muzsika Mívelő Mérnökök Klubja (MMMK)</option
+      ><option value="Műegyetemi Szakkolégiumok Közössége (MŰSZAK)"
+        >Műegyetemi Szakkolégiumok Közössége (MŰSZAK)</option
+      ><option value="Palacsintázó">Palacsintázó</option><option
+        value="Parkett Klub">Parkett Klub</option
+      ><option value="Pizzásch">Pizzásch</option><option value="ReggeliSCH"
+        >ReggeliSCH</option
+      ><option value="Reszortvezetők Tanácsa (RVT)"
+        >Reszortvezetők Tanácsa (RVT)</option
+      ><option value="Röpi kör">Röpi kör</option><option
+        value="SPOT Fotókör (SPOT)">SPOT Fotókör (SPOT)</option
+      ><option value="Schönherz Design Stúdió (SDS)"
+        >Schönherz Design Stúdió (SDS)</option
+      ><option value="Schönherz Elektronikai Műhely (SEM)"
+        >Schönherz Elektronikai Műhely (SEM)</option
+      ><option value="Schönherz Iskolaszövetkezet (Schis)"
+        >Schönherz Iskolaszövetkezet (Schis)</option
+      ><option value="Schönherz Qpa">Schönherz Qpa</option><option
+        value="Schönherz Vállalati Kapcsolatok (SVK)"
+        >Schönherz Vállalati Kapcsolatok (SVK)</option
+      ><option value="Schörpong">Schörpong</option><option value="SecurITeam"
+        >SecurITeam</option
+      ><option value="Simonyi Konferencia">Simonyi Konferencia</option><option
+        value="Simonyi Károly Szakkolégium">Simonyi Károly Szakkolégium</option
+      ><option value="Szauna">Szauna</option><option
+        value="Szent Schönherz Senior Lovagrend (SSSL)"
+        >Szent Schönherz Senior Lovagrend (SSSL)</option
+      ><option value="Szintképviselők Tanácsa (Szita)"
+        >Szintképviselők Tanácsa (Szita)</option
+      ><option value="Szolgáltató Reszort (SZOR)"
+        >Szolgáltató Reszort (SZOR)</option
+      ><option value="VIK Szakestély">VIK Szakestély</option><option
+        value="Vödörkör (Vödör)">Vödörkör (Vödör)</option
+      ><option value="Vörös Kakas Fogadó (Kakas)"
+        >Vörös Kakas Fogadó (Kakas)</option
+      >
+    </select>
+    <span class="title">Simonyi Károly Szakkollégium</span>
+    <div class="tooltip">
+      <img class="infopic" src="../pic/exclamation-blue.png" alt="Info" /><span
+        class="tooltiptext">A kör tagja a Simonyi Károly Szakkollégiumnak?</span
+      >
+    </div>
+    <br />
+    <input type="radio" name="simonyi" value="0" checked /> Nem
+    <input type="radio" name="simonyi" value="1" /> Igen
+  </fieldset>
+  <br />
+  <fieldset>
+    <legend>Plakát/szórólap:</legend>
+    <span class="title">Plakát/szórólap linkje</span>
+    <div class="tooltip">
+      <img class="infopic" src="../pic/exclamation-blue.png" alt="Info" /><span
+        class="tooltiptext">Kérlek csak Google Drive linket adj meg!</span
+      >
+    </div>
+    <input
+      type="text"
+      name="link"
+      placeholder="https://drive.google.com/file/d/..."
+    />
+    <span class="title">Hány darabot szeretnél?</span>
+    <div class="tooltip">
+      <img class="infopic" src="../pic/exclamation-blue.png" alt="Info" /><span
+        class="tooltiptext">Add meg, hány darabot szeretnél!</span
+      >
+    </div>
+    <input type="number" name="plakatnum" placeholder="darabszám" />
+  </fieldset>
+  <br />
+  <fieldset>
+    <legend>Papír:</legend>
+    <span class="title">Mekkora méretű papírra szeretnéd?</span>
+    <div class="tooltip">
+      <img class="infopic" src="../pic/exclamation-blue.png" alt="Info" /><span
+        class="tooltiptext">Ha lehetséges válassz konkrét méretet!</span
+      >
+    </div>
+    <select name="papersize">
+      <option value="empty">Válassz a listából!</option>
+      <option value="A6">A6</option>
+      <option value="A5">A5</option>
+      <option value="A4 fekete-fehér">A4 (fekete-fehér)</option>
+      <option value="A4">A4</option>
+      <option value="A3">A3</option>
+      <option value="A2">A2</option>
+      <option value="A1">A1</option>
+      <option value="A0">A0</option>
+      <option value="other">Egyéb (használd a megjegyzést!)</option>
+    </select>
+    <span class="title">Egyéb megjegyzés a papírméretre vonatkozóan?</span>
+    <div class="tooltip">
+      <img class="infopic" src="../pic/exclamation-blue.png" alt="Info" /><span
+        class="tooltiptext"
+        >Csak akkor töltsd ki, ha nem szabvány méretű a papír!</span
+      >
+    </div>
+    <input
+      type="text"
+      name="papirmegj"
+      placeholder="Töltsd ki, ha előbb az egyebet választottad! Ne írj olyanokat, hogy '4 A4 + 16 A3'!"
+    />
+    <span class="title">Matricapapírra szeretnéd?</span>
+    <div class="tooltip">
+      <img class="infopic" src="../pic/exclamation-blue.png" alt="Info" /><span
+        class="tooltiptext"
+        >Szeretnéd, hogy matricapapírra történjen a nyomtatás?</span
+      >
+    </div>
+    <br />
+    <input type="radio" name="matrica" value="0" checked /> Nem
+    <input type="radio" name="matrica" value="1" /> Igen
+    <br />
+    <span class="title">Laminálást kérsz?</span>
+    <div class="tooltip">
+      <img class="infopic" src="../pic/exclamation-blue.png" alt="Info" /><span
+        class="tooltiptext">Szeretnéd, hogy lelamináljuk a rendelésed?</span
+      >
+    </div>
+    <br />
+    <input type="radio" name="laminalas" value="0" checked /> Nem
+    <input type="radio" name="laminalas" value="1" /> Igen
+  </fieldset>
+  <br />
+  <span class="title">Megjegyzés az igényléssel kapcsolatban</span>
+  <div class="tooltip">
+    <img class="infopic" src="../pic/exclamation-blue.png" alt="Info" /><span
+      class="tooltiptext">Ha van valami különleges igényed, itt leírhatod.</span
+    >
+  </div>
+  <br />
+  <input type="text" name="comment" placeholder="" />
+  <br />
+  <input type="submit" value="Igénylés leadása" />
+</form>
+
+<script>
+  import { createTRPCClient } from "@trpc/client";
+  import type { AppRouter } from "../../../../src/server";
+
+  const url = `http://localhost:3001/trpc`;
+
+  const client = createTRPCClient<AppRouter>({ url });
+
+  function toBoolean(val: string): boolean {
+    switch (val) {
+      case "0":
+        return false;
+      case "1":
+        return true;
+      default:
+        return false;
+    }
+  }
+
+  window.addEventListener("load", () => {
+    function sendData(form: HTMLFormElement) {
+      const FD = new FormData(form);
+      const value = Object.fromEntries(FD.entries());
+
+      client
+        .mutation("order.createOneOrder", {
+          data: {
+            comment: value.comment.toString(),
+            email: value.email.toString(),
+            group: value.korok.toString(),
+            laminate: toBoolean(value.laminalas.toString()),
+            link: value.link.toString(),
+            name: value.name.toString(),
+            simonyi: toBoolean(value.simonyi.toString()),
+            paperSize: value.papersize.toString(),
+            paperNote: value.papirmegj.toString(),
+            sticker: toBoolean(value.matrica.toString()),
+            numberOfPrints: parseInt(value.plakatnum.toString()),
+          },
+        })
+        .then((res) => alert(res))
+        .catch(console.log);
+    }
+
+    const form = document.getElementById("order");
+
+    form?.addEventListener("submit", (event) => {
+      event.preventDefault();
+
+      sendData(form as HTMLFormElement);
+    });
+  });
+</script>
+
+<style>
+  .tooltip {
+    cursor: help;
+    position: relative;
+    display: inline-block;
+  }
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 38vh;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 1vh;
+    padding: 1vh;
+    position: absolute;
+    z-index: 1;
+    top: -1.5vh;
+    left: 110%;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  form .title {
+    font-weight: bold;
+  }
+
+  .infopic {
+    height: 3vh;
+    margin: 0 0.5vh 0 0.5vh;
+    padding-top: 2vh;
+  }
+
+  input[type="text"] {
+    font-size: 2.5vh;
+    width: 100%;
+    padding: 2vh 2vh;
+    margin: 1vh 0;
+    box-sizing: border-box;
+  }
+
+  input[type="lista"] {
+    font-size: 2.5vh;
+    width: 100%;
+    padding: 2vh 2vh;
+    margin: 1vh 0;
+    box-sizing: border-box;
+  }
+
+  input[type="password"] {
+    font-size: 2.5vh;
+    width: 100%;
+    padding: 2vh 2vh;
+    margin: 1vh 0;
+    box-sizing: border-box;
+  }
+
+  input[type="number"] {
+    font-size: 2.5vh;
+    width: 100%;
+    padding: 2vh 2vh;
+    margin: 1vh 0;
+    box-sizing: border-box;
+  }
+
+  input[type="radio"] {
+    font-size: 1vh;
+    padding: 2vh 2vh;
+    margin: 1vh 0;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    border: none;
+    padding: 1vh 2vh;
+    background: linear-gradient(to right, #66ccff 0%, #ccccff 100%);
+    font-size: 2.5vh;
+    cursor: pointer;
+    border-radius: 1vh;
+    border-bottom: 0.2vh solid transparent;
+  }
+
+  input[type="submit"]:hover {
+    color: white;
+    border-bottom: 0.2vh solid gray;
+  }
+
+  select {
+    font-size: 2vh;
+    width: 100%;
+    padding: 2vh 2vh;
+    margin: 1vh 0;
+    box-sizing: border-box;
+  }
+
+  fieldset {
+    display: block;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    border: 1vh solid (internal value);
+  }
+</style>
